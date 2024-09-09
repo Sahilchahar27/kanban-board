@@ -3,7 +3,7 @@ import Modal from './Modal';
 import TaskForm from './TaskForm';
 import TaskColumn from './TaskColumn';
 import { useFirestore } from '../hooks/useFirestore';
-import logo from '../logo.png'; // Adjust the path as necessary
+import logo from '../logo.png'; 
 
 const TaskBoard = () => {
   const { tasks, addTask, updateTask, deleteTask } = useFirestore();
